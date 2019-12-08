@@ -1,8 +1,8 @@
 y0 = input('Enter initial height:  ');
 v0 = input('Enter velocity:  ');
 angle = input('Enter angle (with respect to x-axis): ');
-ax = input('Enter initial acceleration in x:  ');
-ay = input('Enter initial acceleration in y:  ');
+ax = input('Enter acceleration in x:  ');
+ay = input('Enter acceleration in y:  ');
 
 if ay == 0
     error('Error. There is no vertical acceleration.')
